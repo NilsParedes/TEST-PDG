@@ -17,3 +17,7 @@ FRONTEND
 2) Ejecute el comando: ng s -o (Cuando se termine de cargar la app se cargará en el puerto 4200 por defecto, se puede cambiar el puerto también --port=NUM_PUERTO)
 *NOTA*
 Si cambia el puerto en el frontend procure cambiar también en el puerto de envío de email en el backend, ya que este cuando reseteas la contraseña, te manda un enlace al correo con el puerto configurado por defecto en angular.
+
+
+*NOTA*
+En el servidor SMTP para el envío de correos electrónicos para el reseteo de contraseñas, se recomienda usar sus credenciales, ya que como están actualmente en uso de manera local, puede ocasionar un error el intentar autenticarse desde otro lado.
