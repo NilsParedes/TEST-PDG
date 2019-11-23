@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~angular-notifier/styles";
+
+.pointer {
+  cursor: pointer;
+}
+
+.loading-table {
+  opacity: 0.5;
+}
+
+.loading-table-spinner {
+	position:absolute;
+  z-index:1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.login-register {
+  background-image: url("https://i1.wp.com/pdg.solutions/wp-content/uploads/2018/06/footer-logo@1x.png?fit=80%2C75&ssl=1");
+  background-size: auto;
+  /* background-repeat: no-repeat; */
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 10% 0;
+  position: fixed;
+}
+
+.login-box {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.login-box .footer {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.login-box .social {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#recoverform {
+  display: none;
+}
+
+.login-sidebar {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.login-sidebar .login-box {
+  right: 0px;
+  position: absolute;
+  height: 100%;
+}
