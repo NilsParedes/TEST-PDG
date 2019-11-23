@@ -5,7 +5,7 @@ BACKEND
 2) Renombre el archivo .env.example a .env
 3) Cree una nueva base de datos con el nombre backend-pdg.
 4) Ejecute las migraciones: php artisan migrate
-5) Cree una llave para jwt: php artisan jwt:generate
+5) Cree una llave para jwt: php artisan jwt:secret
 6) Ejecutar el comando: php artisan serve (Abre un servicio en el puerto 8000 por defecto, en caso quiera usar otro puerto añada el tag --port=NUM_PUERTO)
 *NOTA*
 Si cambia el puerto en el backend procure cambiar también la URI del frontend.
